@@ -19,7 +19,6 @@ def root(x, y):
 def squire(x, y):
     return x ** y
 
-
 print("Ahnafya Calculator: Python")
 print("|")
 print("Select operation.")
@@ -29,12 +28,12 @@ print("3.Multiply")
 print("4.Divide")
 print("5.Root")
 print("6.Squire")
+print("|")
 
 while True:
-    # take input from the user
+
     choice = input("Enter choice (1/2/3/4/5/6): ")
 
-    # check if choice is one of the four options
     if choice in ('1', '2', '3', '4', '5', '6'):
         try:
             num1 = float(input("Enter first number: "))
