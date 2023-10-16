@@ -10,10 +10,10 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    return x / y
+    return round(x / y, 3)
 
 def root(x, y):
-    return x**(1/y)
+    return round(x**(1/y), 3)
     # return math.sqrt(x)
 
 def squire(x, y):
